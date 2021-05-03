@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .v1_20 {
+    width: 100%;
+    height: 700px;
+    background: url("../images/v1_20.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v6_5 {
+    width: 100%;
+    height: 125px;
+    background: rgba(234,181,119,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+  }
+  .v6_6 {
+    width: 100%;
+    height: 20px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 106px;
+    left: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow: hidden;
+  }
+
+  
+  .v1_17 {
+    width: 100%;
+    color: rgba(190,112,21,1);
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    font-family: Zilla Slab;
+    font-weight: Bold;
+    font-size: 64px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  @media screen and (max-width: 768px) {
+    .v1_17{
+      font-size: 50px;
+      top: 20px;
+      font-weight: bolder;
+      font-family: Zilla Slab;
+    }
+  }
+
+  .v1_19 {
+    width: 76px;
+    height: 76px;
+    background: url("./Group\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 13px;
+    left: 42px;
+    overflow: hidden;
+  }
+
+  .v2 {
+    width: 5px;
+    height: 100%;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 125px;
+    left: 0px;
+  }
+
+  .container {
+    text-align: center;
+    position: relative relative;
+    top: -5px ;
+    overflow: hidden;
+    
+  }
+
+  .responsive-iframe {
+    position: relative relative ;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 97vh;
+    border: none;
+  }
+
+  /*@media screen and (max-height: 600px) {
+    .responsive-iframe {
+      position: relative relative ;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100vw;
+      height: 97vh;
+      border: none;
+    }
+  } */
+  
+
+  
+
+  
+  
