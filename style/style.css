@@ -6,7 +6,7 @@
   }
   .v1_20 {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background: url("../images/v1_20.png");
     background-repeat: no-repeat;
     background-position: center center;
